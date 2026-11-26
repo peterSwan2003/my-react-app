@@ -1,0 +1,80 @@
+* {
+  background-color: rgb(32, 32, 32);
+  padding: 0px;
+  margin: 0px;
+}
+:root {
+  --backgrond-color: rgb(63, 62, 62);
+}
+label {
+  color: white;
+}
+input {
+  color: #ccc;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(32, 32, 32);
+  justify-content: center;
+  align-items: center;
+  gap: 25px 25px;
+  margin: 50px 0px;
+}
+ul li {
+  list-style: none;
+  width: 500px;
+  display: flex;
+  border-radius: 10px;
+  background-color: var(--backgrond-color);
+  text-align: left;
+}
+ul li img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+ul li div {
+  background-color: var(--backgrond-color);
+  padding: 15px;
+}
+ul li h3 {
+  color: white;
+  font-size: 26px;
+  background-color: var(--backgrond-color);
+}
+ul li h4 {
+  color: white;
+  font-weight: 400;
+  background-color: var(--backgrond-color);
+  margin-left: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+ul li h4::before {
+  content: ".";
+  position: absolute;
+  left: -20px;
+  bottom: 28px;
+  color: rosybrown;
+  font-size: 75px;
+}
+ul li p {
+  background-color: var(--backgrond-color);
+  color: white;
+  line-height: 1.5;
+}
+ul li p span {
+  background-color: var(--backgrond-color);
+  color: #aaa;
+}
+ul li p:last-child {
+  margin-top: 15px;
+}
+button {
+  color: white;
+  transition: 0.5s all;
+}
+button:hover {
+  background-color: white;
+  color: #777;
+}
